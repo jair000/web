@@ -1,0 +1,24 @@
+1 -> cd (ruta de la carpeta) /* ingresar a la carpeta antes de hacer cualquier cosa */
+2 -> git init
+
+\\ ingreso al repositorio con los sgts datos
+
+3 -> git config user.name "jair000" /* ingreso mi username d mi github*/
+4 -> git config user.email "jairoo.andrea1204@gmail.com" /* ingresar al correo enlazado */
+5 -> git remote add (nombre para mi origen) (url del repositorio)
+
+\\ agregar los archivos y trabajar
+\\ luego subir al git hub
+
+6 -> git status
+7 -> git add (nombre del archivo) || git add *              /*esto agrega todos los archivos */
+8 -> git commit -m "pruebita-1" /* darle un titulo a la version del push */
+
+\\ ver los logs y estados realizados
+
+9 -> git log
+10 -> git push -u (nombre de mi origen) (nombre de la rama) /* usar el origen del punto 5 */ /* normalmente es main */
+10.1 -> git push -u --force (nombre de mi origen) (nombre de la rama)
+
+\\ revisar el repositoria
+11 ->
